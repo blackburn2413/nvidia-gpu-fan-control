@@ -1,5 +1,5 @@
 # nvidia-gpu-fan-control
-Script ontrolling PWM Fans based on the temp of a NVidia GPU (in my case, a m40)
+Script controlling PWM Fans based on the temp of a NVidia GPU (in my case, a m40). This allows for controlled cooling of a passively cooled fan using external fans.
 
 Edits are made to the file "/sys/class/hwmon/hwmon1/pwm3" file in my case to set a fan speed between 0 and 255. Use "sudo pwmconfig" to determine the file you need to edit based on which pwm fan you are working with.
 
